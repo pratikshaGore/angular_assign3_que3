@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'App Root';
+  //d;
+  public fun(d)
+  {
+   d="Inside Function";
+   this.title="In App Root Function";
+   return d;
+  }
 }
